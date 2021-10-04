@@ -31,6 +31,9 @@ namespace ConsoleApp1
                     carApp.CarApp();
                     StartAgain();
                     break;
+                default:
+                    Environment.ExitCode = 0;
+                    break;
             }
         }
 

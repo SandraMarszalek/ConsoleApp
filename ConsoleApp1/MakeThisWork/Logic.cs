@@ -5,7 +5,6 @@ namespace ConsoleApp1.MakeThisWork
 {
     public class Logic
     {
-        
         public Dictionary<string,string> DictionaryApp()
         {
             Dictionary<string, string> myDictionary = GetDataFromDatabase.GetDictionaryData();
